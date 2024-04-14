@@ -1,0 +1,38 @@
+Sure, here's a step-by-step guide to execute and understand the provided Android program:
+
+Set up your development environment:
+
+Make sure you have Android Studio installed on your computer.
+Create a new project or open an existing project in Android Studio.
+Create a new Android project:
+
+Open Android Studio.
+Click on "Start a new Android Studio project" or go to File -> New -> New Project.
+Follow the steps in the wizard to create a new project. You can name your project whatever you like.
+Make sure to select "Empty Activity" when prompted for the activity template.
+Replace the contents of MainActivity.java:
+
+Inside your project, locate the MainActivity.java file.
+Replace the contents of MainActivity.java with the code you provided.
+Understand the code:
+
+The MainActivity class extends AppCompatActivity, which is a base class for activities in Android.
+There are overridden lifecycle methods such as onCreate(), onStart(), onResume(), onPause(), onStop(), and onDestroy().
+Inside each lifecycle method, there's a log message indicating which lifecycle event is being executed.
+Additionally, there's a Toast message displayed in the onCreate() method, which will show a short message at the bottom of the screen.
+Run the application:
+
+Connect your Android device to your computer, or use an emulator provided by Android Studio.
+Click on the green "play" button in Android Studio to run the application.
+Android Studio will compile your code and install the app on the selected device.
+Once installed, you'll see the app running on your device/emulator.
+Observe the lifecycle events:
+
+Open Logcat in Android Studio (usually located at the bottom).
+Filter the logs by your application's package name or by "Events" tag.
+As you interact with the app (e.g., launching it, switching between apps, closing it), observe how the lifecycle events are triggered and logged in the Logcat.
+Understand the lifecycle flow:
+
+Observe the sequence of lifecycle events as you interact with the app.
+You'll notice that each lifecycle event corresponds to a certain state of the activity, such as creation, start, resume, pause, stop, and destroy.
+By following these steps, you should be able to execute the provided Android program and gain a better understanding of the activity lifecycle in Android.
